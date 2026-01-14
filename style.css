@@ -171,6 +171,24 @@ section {
     color: #E55473;
 }
 
+.social-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.social-card img{
+    width: 100%;
+}
+
 
 
 
@@ -202,6 +220,10 @@ section {
     .sale-container{
         flex-direction: column;
         gap: 20px;
+    }
+
+    .social-card{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
