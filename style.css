@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 
-
-
-
-
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +10,6 @@
 :root {
     --dark-color: #272727;
 }
-
 
 .lato {
     font-family: "Lato", sans-serif;
@@ -63,42 +55,99 @@ section {
     width: 100%;
 }
 
-.feature-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 48px;
-}
-
-#feature-discription {
-    text-align: center;
-}
-
-.section-head {
-    font-size: 2.5rem;
-    margin-bottom: 24px;
-}
-
 .container {
     width: 75%;
     max-width: 1440px;
     margin: 50px auto;
+    border: 2px solid red;
     gap: 97px;
 }
 
-.feature-img {
-    border: 2px solid black;
+/* .feature-container{
+    text-align: center;
+} */
+
+.section-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
-.feature-img img {
-    /* border: 2px solid green; */
+.feature-discribtion {
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 0px auto 48px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid rebeccapurple */
+}
+
+.card-img {
+    /* border: 2px solid red; */
+    width: 450px;
     padding: 110px 78px 0px;
-    border-radius: 20rem 20rem 0pc 0rem;
-    background-color: pink;
-    padding: 110px 78px 0px;
+    border-radius: 20rem 20rem 0 0;
     margin-bottom: 32px;
 }
+
+.pink-box {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.blue-box {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.green-box {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.card-txt {
+    font-size: 24px;
+    line-height: 35px;
+    color: #272727;
+    font-weight: bold;
+}
+
+.greeting{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 86px;
+}
+
+.greeting-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.greeting-card h2{
+    font-size: 24px;
+    margin-top: 24px;
+    font-weight: 35px;
+}
+
+
+
+
+
+
 
 
 
