@@ -61,7 +61,7 @@ section {
     width: 75%;
     max-width: 1440px;
     margin: 50px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     gap: 97px;
 }
 
@@ -188,16 +188,6 @@ section {
 .social-card img{
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 576px) {
     .hero-container {
