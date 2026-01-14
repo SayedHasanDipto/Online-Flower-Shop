@@ -61,7 +61,7 @@ section {
     width: 75%;
     max-width: 1440px;
     margin: 50px auto;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     gap: 97px;
 }
 
@@ -121,7 +121,8 @@ section {
 .blue-box {
     background-color: rgba(5, 151, 160, 0.15);
 }
-#blue-box-img{
+
+#blue-box-img {
     height: 70%;
 }
 
@@ -158,8 +159,17 @@ section {
     font-weight: 35px;
 }
 
+.sale-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    /* border: 2px solid red; */
+}
 
-
+.pink{
+    color: #E55473;
+}
 
 
 
@@ -187,6 +197,11 @@ section {
 
     .greeting {
         flex-direction: column;
+    }
+
+    .sale-container{
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
