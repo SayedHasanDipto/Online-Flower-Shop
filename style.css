@@ -218,10 +218,38 @@ section {
     border: none;
 }
 
+footer {
+    background-color: #111010;
+}
 
+.white-color {
+    color: white;
+}
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
+.footer-container {
+    padding: 128px;
+}
+
+.footer-describtion {
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.center {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}
 
 
 
