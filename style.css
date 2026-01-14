@@ -53,13 +53,15 @@ section {
 
 .hero-img img {
     width: 100%;
+    filter: drop-shadow(0px 0px 10px #00000040);
+    vertical-align: middle;
 }
 
 .container {
     width: 75%;
     max-width: 1440px;
     margin: 50px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     gap: 97px;
 }
 
@@ -101,6 +103,15 @@ section {
     padding: 110px 78px 0px;
     border-radius: 20rem 20rem 0 0;
     margin-bottom: 32px;
+    box-shadow: 0px 0px 10px #00000040;
+    height: 32.5rem;
+}
+
+.card-img img {
+    width: 100%;
+    filter: drop-shadow(0px 0px 5px #00000040);
+    vertical-align: middle;
+    height: 100%;
 }
 
 .pink-box {
@@ -109,6 +120,9 @@ section {
 
 .blue-box {
     background-color: rgba(5, 151, 160, 0.15);
+}
+#blue-box-img{
+    height: 70%;
 }
 
 .green-box {
@@ -122,22 +136,23 @@ section {
     font-weight: bold;
 }
 
-.greeting{
+.greeting {
     margin-top: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 86px;
+    box-shadow: 0px 0px 20px #00000040;
 }
 
-.greeting-card{
+.greeting-card {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.greeting-card h2{
+.greeting-card h2 {
     font-size: 24px;
     margin-top: 24px;
     font-weight: 35px;
@@ -165,4 +180,13 @@ section {
     .hero-title {
         font-size: 3rem;
     }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .greeting {
+        flex-direction: column;
+    }
+
 }
