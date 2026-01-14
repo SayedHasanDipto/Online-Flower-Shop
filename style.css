@@ -39,6 +39,7 @@ section {
     max-width: 634px;
     margin-bottom: 32px;
     color: rgba(39, 39, 39, 0.6);
+
 }
 
 .btn {
@@ -60,7 +61,7 @@ section {
 .container {
     width: 75%;
     max-width: 1440px;
-    margin: 50px auto;
+    margin: 200px auto;
     /* border: 2px solid red; */
     gap: 97px;
 }
@@ -167,11 +168,11 @@ section {
     /* border: 2px solid red; */
 }
 
-.pink{
+.pink {
     color: #E55473;
 }
 
-.social-container{
+.social-container {
     text-align: center;
     display: flex;
     align-items: center;
@@ -179,15 +180,57 @@ section {
     flex-direction: column;
 }
 
-.social-card{
+.social-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 
-.social-card img{
+.social-card img {
     width: 100%;
 }
+
+.deals-container {
+    padding: 112px 318px 115px 287px;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+}
+
+.deals-header {
+    margin-bottom: 10px;
+}
+
+.deals-describtion {
+    text-align: center;
+    margin: 0px auto 48px;
+}
+
+.deals-input {
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    gap: 16px;
+    max-width: 886px;
+}
+
+#deals-email-input {
+    width: 79%;
+    padding: 23px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .hero-container {
@@ -207,13 +250,29 @@ section {
         flex-direction: column;
     }
 
-    .sale-container{
+    .sale-container {
         flex-direction: column;
         gap: 20px;
     }
 
-    .social-card{
+    .social-card {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .deals-container {
+        padding: 0px;
+    }
+
+    .deals-header {
+        margin-top: 10px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .deals-input {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
 }
